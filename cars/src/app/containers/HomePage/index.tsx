@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import tw from "twin.macro";
+import { Navbar } from "../../components/navBar";
 
 type Props = {};
 
@@ -15,7 +16,11 @@ const PageContainer = styled.div`
 `;
 
 const HomePage = (props: Props) => {
-    return <PageContainer>Hello WEW</PageContainer>;
+    return (
+        <PageContainer>
+            <Navbar />
+        </PageContainer>
+    );
 };
 
 export default HomePage;
