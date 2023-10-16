@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import tw from "twin.macro";
 import { Navbar } from "../../components/navBar";
+import { TopSection } from "./topSection";
 
 type Props = {};
 
@@ -19,6 +20,7 @@ const HomePage = (props: Props) => {
     return (
         <PageContainer>
             <Navbar />
+            <TopSection />
         </PageContainer>
     );
 };
