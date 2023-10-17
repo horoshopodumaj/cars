@@ -26,6 +26,7 @@ const BaseButton = styled.button`
     duration-200
     ease-in-out
     m-1
+    cursor-pointer
   `};
 `;
 
