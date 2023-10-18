@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import tw from "twin.macro";
+import { BookCard } from "../../components/bookCard";
+import { Marginer } from "../../components/marginer";
 import { Navbar } from "../../components/navBar";
 import { TopSection } from "./topSection";
 
@@ -21,6 +23,8 @@ const HomePage = (props: Props) => {
         <PageContainer>
             <Navbar />
             <TopSection />
+            <Marginer direction="vertical" margin="4em" />
+            <BookCard />
         </PageContainer>
     );
 };
