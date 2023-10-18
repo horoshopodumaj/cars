@@ -17,7 +17,9 @@ const NavbarContainer = styled.div`
     `}
 `;
 
-const LogoContainer = styled.div``;
+const LogoContainer = styled.div`
+    margin-left: 10px;
+`;
 
 export function Navbar() {
     return (

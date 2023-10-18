@@ -8,6 +8,8 @@ import { SCREENS } from "../../components/responsive";
 const TopSectionContainer = styled.div`
     min-height: 400px;
     margin-top: 6em;
+    margin-left: auto;
+    margin-right: auto;
     ${tw`
     w-full
     max-w-screen-2xl
