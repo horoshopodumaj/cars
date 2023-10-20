@@ -3,6 +3,7 @@ import tw from "twin.macro";
 import { BookCard } from "../../components/bookCard";
 import { Marginer } from "../../components/marginer";
 import { Navbar } from "../../components/navBar";
+import { AboutUs } from "./aboutUs";
 import { BookingSteps } from "./bookingSteps";
 import { TopSection } from "./topSection";
 
@@ -28,6 +29,8 @@ const HomePage = (props: Props) => {
             <BookCard />
             <Marginer direction="vertical" margin="10em" />
             <BookingSteps />
+            <Marginer direction="vertical" margin="8em" />
+            <AboutUs />
         </PageContainer>
     );
 };
