@@ -6,7 +6,6 @@ import { SCREENS } from "../../components/responsive";
 
 const AboutUsContainer = styled.div`
     ${tw`
-    w-full
     flex
     flex-wrap
     items-center
@@ -24,7 +23,6 @@ const AboutUsContainer = styled.div`
 const CarContainer = styled.div`
     width: auto;
     height: 15em;
-    margin-left: -50px;
 
     img {
         width: auto;
@@ -52,6 +50,8 @@ const InfoContainer = styled.div`
     flex-col
     md:ml-6
     2xl:ml-16
+    pr-7
+    pl-7
   `};
 `;
 

@@ -5,6 +5,7 @@ import { Marginer } from "../../components/marginer";
 import { Navbar } from "../../components/navBar";
 import { AboutUs } from "./aboutUs";
 import { BookingSteps } from "./bookingSteps";
+import { TopCars } from "./topCars";
 import { TopSection } from "./topSection";
 
 type Props = {};
@@ -31,6 +32,8 @@ const HomePage = (props: Props) => {
             <BookingSteps />
             <Marginer direction="vertical" margin="8em" />
             <AboutUs />
+            <Marginer direction="vertical" margin="8em" />
+            <TopCars />
         </PageContainer>
     );
 };
